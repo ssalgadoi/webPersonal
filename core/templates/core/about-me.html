@@ -1,0 +1,33 @@
+
+{% extends 'core/base.html'%}
+{% block title%}Acerca de{% endblock %}
+{% block background %}{% load static %}{% static 'core/img/about-bg.jpg' %}{% endblock  %}
+
+{% block headers  %}
+<h1>Acerca de</h1>
+<span class="subheading">Biografía</span>
+{% endblock  %}
+{% block content %}
+<div class="row">
+<div class="col-lg-3 col-md-4 offset-lg-1">
+    <img class="img-fluid avatar" src="{% static 'core/img/avatar.jpg'%}">
+</div>
+<div class="col-lf-7 col-md-8">
+    <h2 class="section-heading">salgadoIbacache</h2>
+    <p>Nacido en.. </p>
+    <p>Mi nombre es salgadoIbacache y soy Full Stack Developer.</p>
+</div>
+</div>
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
